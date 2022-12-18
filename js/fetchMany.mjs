@@ -16,12 +16,10 @@ export async function fetchManyPosts() {
   const jsonResults = await results.json();
 
   displayManyPosts(jsonResults);
-  createSearchResults(jsonResults)
+  createSearchResults(jsonResults);
 }
 
-fetchManyPosts()
-
-
+fetchManyPosts();
 
 function createSearchResults(jsonResults) {
   let form = document.getElementById("search");

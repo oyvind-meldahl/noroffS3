@@ -11,9 +11,9 @@ export function listenRegister() {
     if (userDetails.avatar === "") {
       delete userDetails.avatar;
     }
- 
+
     registerUser(userDetails);
   });
 }
 
-listenRegister()
+listenRegister();

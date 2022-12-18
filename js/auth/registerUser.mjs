@@ -12,9 +12,9 @@ export async function registerUser(userDetails) {
   });
 
   const jsonResults = await result.json();
-  
+
   if (jsonResults.statusCode == 400) {
-    errorField.innerHTML = `${jsonResults.errors[0].message}`
+    errorField.innerHTML = `${jsonResults.errors[0].message}`;
     document.querySelector(".errormsg").style.display = "block";
   } else if ((jsonResults.statusCode = 201)) {
     window.location.assign("/login.html");

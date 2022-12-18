@@ -52,11 +52,12 @@ nav a:hover {
 }
 
 .logo {
-
     color: #000;
+}
 
-
-
+.row a {
+    color: #fff;
+    text-decoration: none;
 }
 
 .logoimg {
@@ -159,28 +160,27 @@ footer {
 
 
 
-.splashtext {
+.splashtext,
+.splashtext2,
+.splashtext3 {
     height: 250px;
 }
 
+.splashtext2 {
+    background-image: url("/img/chris-abney-qLW70Aoo8BE-unsplash.jpg");
+    background-position: center;
+}
 
-
-
-
-
-
-
-
-
+.splashtext3 {
+    background-image: url("/img/avinash-kumar-xT7OuIFew3Q-unsplash-2.jpg");
+    background-position: center;
+}
 
 .topline {
-
     padding: 10px;
     max-height: 100px;
     text-align: right;
 }
-
-
 
 .sellerimage {
     width: 50px;

@@ -9,8 +9,7 @@ export function listenNewItem() {
     const formData = new FormData(form);
     const passDetails = Object.fromEntries(formData.entries());
     newItemFirst(passDetails);
-    
   });
 }
 
-listenNewItem()
+listenNewItem();

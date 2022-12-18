@@ -18,8 +18,7 @@ export async function fetchSinglePost() {
   );
   const jsonResults = await results.json();
 
- 
-displaySingle(jsonResults)
+  displaySingle(jsonResults);
 }
 
-fetchSinglePost()
+fetchSinglePost();

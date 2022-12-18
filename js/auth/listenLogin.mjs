@@ -12,4 +12,4 @@ export function listenLogin() {
   });
 }
 
-listenLogin()
+listenLogin();
