@@ -1,5 +1,5 @@
 # Auction house website
-![auction](https://github.com/oyvind-meldahl/noroffS3/blob/main/img/avinash-kumar-xT7OuIFew3Q-unsplash-2.jpg)
+![auction](https://github.com/oyvind-meldahl/noroffS3/blob/main/img/banner.png)
 
 ## Description
 
